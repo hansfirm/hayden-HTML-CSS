@@ -59,3 +59,30 @@ ul{
   list-style-position: inside;
   list-style-type: square;
 }
+ol{
+  list-style-position: inside;
+}
+#Nutrition-Information li{
+  list-style-type: none;
+  border-bottom: grey dotted 1px;
+  /* background-color: red; */
+  float: left;
+  width: 48%;
+}
+#Nutrition-Information li:nth-child(odd) {
+  clear: both;
+  margin-right: 10px;
+}
+#Nutrition-Information .nutri-value {
+  float: right;
+}
+footer {
+  clear: both;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+footer p {
+  font: 1rem Arial;
+}
